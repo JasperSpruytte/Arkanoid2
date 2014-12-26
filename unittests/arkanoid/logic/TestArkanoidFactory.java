@@ -17,8 +17,9 @@ public class TestArkanoidFactory implements ArkanoidFactory {
         blocksPerLevel = new ArrayList<List<Block>>();
         for (int i = 0; i < 1; i++)
         {
-            blocksPerLevel.add(null);
+            blocksPerLevel.add(new ArrayList<Block>());
         }
+
     }
 
     @Override

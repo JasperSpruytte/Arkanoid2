@@ -12,7 +12,7 @@ public class ArkanoidTest {
     public void arkanoid_constructor_gameStartsWithLevel0()
     {
         Arkanoid game = new Arkanoid(new TestArkanoidFactory());
-        int currentLevelNumber = game.getCurrentLevel().getLevelNumber();
+        int currentLevelNumber = game.getCurrentLevel().levelNumber();
         int expectedLevel = 0;
         Assert.assertEquals(expectedLevel, currentLevelNumber);
     }

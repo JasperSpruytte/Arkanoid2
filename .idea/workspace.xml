@@ -2,56 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b64a13f-b736-4a43-bfe8-e2277c48816f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/ColorConverterTest.java" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\.idea\description.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\.idea\dictionaries\Jasper.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\.idea\project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\out\production\Arkanoid\arkanoid\logic\sprites\drawing\ColorValidation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\out\production\Arkanoid\arkanoid\logic\sprites\drawing\ImageCreator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\out\production\Arkanoid\arkanoid\logic\sprites\drawing\MonochromeCircleCreator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\out\production\Arkanoid\arkanoid\logic\sprites\drawing\MonochromeRectangleCreator.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\src\arkanoid\logic\sprites\drawing\ColorValidation.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/drawing/ColorConverter.java" />
-      <change type="MOVED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\src\arkanoid\logic\sprites\drawing\ImageCreator.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/drawing/ImageFactory.java" />
-      <change type="MOVED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\src\arkanoid\logic\sprites\drawing\MonochromeCircleCreator.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/drawing/MonochromeCircleFactory.java" />
-      <change type="MOVED" beforePath="C:\Users\Jasper\Documents\GitHub\Arkanoid\src\arkanoid\logic\sprites\drawing\MonochromeRectangleCreator.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/drawing/MonochromeRectangleFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/dataaccess/ArkanoidFactory.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/dataaccess/ArkanoidFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Ball.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Ball.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/BallTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/BallTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Block.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Block.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arkanoid/logic/collision/Collision.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arkanoid/logic/collision/CollisionDetector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/collision/CollisionDetectorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/ArkanoidTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/ArkanoidTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/Level$1.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/Level$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/Level.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/Level.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$1.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$2.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$3.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$4.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$5.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/UI/LevelPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/dataaccess/MySQLArkanoidFactory.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/dataaccess/MySQLArkanoidFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Paddle.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Paddle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/PaddleTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/PaddleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Sprite.class" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/logic/sprites/Sprite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/SpriteTest$SpriteMock.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/SpriteTest$SpriteMock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/SpriteTest.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/sprites/SpriteTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/TestArkanoidFactory.class" afterPath="$PROJECT_DIR$/out/test/Arkanoid/arkanoid/logic/TestArkanoidFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arkanoid.iml" afterPath="$PROJECT_DIR$/Arkanoid.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/dataaccess/ArkanoidFactory.java" afterPath="$PROJECT_DIR$/src/arkanoid/dataaccess/ArkanoidFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/BallTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/BallTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Block.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Block.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/ArkanoidTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/ArkanoidTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/logic/Level.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/Level.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/UI/LevelPanel.java" afterPath="$PROJECT_DIR$/src/arkanoid/UI/LevelPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/dataaccess/MySQLArkanoidFactory.java" afterPath="$PROJECT_DIR$/src/arkanoid/dataaccess/MySQLArkanoidFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Paddle.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Paddle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/PaddleTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/PaddleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java" afterPath="$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/SpriteTest.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/sprites/SpriteTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittests/arkanoid/logic/TestArkanoidFactory.java" afterPath="$PROJECT_DIR$/unittests/arkanoid/logic/TestArkanoidFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arkanoid.iws" />
@@ -77,48 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorConverterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/ColorConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="357">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonochromeCircleCreatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonochromeRectangleCreatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="799">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpriteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/SpriteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="901">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PaddleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/PaddleTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,28 +86,89 @@
       <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="578">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollisionDetectorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/collision/CollisionDetectorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1122">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#899#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collision.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/collision/Collision.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollisionDetector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/collision/CollisionDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6336207" vertical-offset="97" max-vertical-offset="969">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#546#557#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1513">
+              <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+              <folding>
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArkanoidTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/ArkanoidTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sprite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java">
+      <file leaf-file-name="TestArkanoidFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/TestArkanoidFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55460995" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arkanoid/UI/LevelPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1836">
-              <caret line="62" column="39" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -217,6 +198,11 @@
         <option value="$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/logic/sprites/Block.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/logic/sprites/Paddle.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/logic/Level.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/logic/collision/Collision.java" />
+        <option value="$PROJECT_DIR$/unittests/arkanoid/logic/collision/CollisionDetectorTest.java" />
+        <option value="$PROJECT_DIR$/unittests/arkanoid/logic/TestArkanoidFactory.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/logic/collision/CollisionDetector.java" />
       </list>
     </option>
   </component>
@@ -233,7 +219,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -345,6 +331,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="unittests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arkanoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arkanoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -431,6 +439,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arkanoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arkanoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arkanoid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -450,8 +484,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/arkanoid/logic" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arkanoid.logic.collision" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -460,7 +498,7 @@
       <recent name="arkanoid.UI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in Arkanoid">
     <configuration default="false" name="All in Arkanoid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Arkanoid" />
@@ -665,8 +703,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Arkanoid" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Arkanoid" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -695,12 +733,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26466575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -708,14 +748,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26466575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -819,7 +857,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="578">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,7 +876,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1836">
           <caret line="62" column="39" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1730#1731#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2138#2139#0" expanded="false" />
+            <element signature="e#2423#2424#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2836#2837#0" expanded="false" />
+            <element signature="e#3529#3530#0" expanded="false" />
+            <element signature="e#3592#3593#0" expanded="false" />
+            <element signature="e#3647#3648#0" expanded="false" />
+            <element signature="e#3688#3689#0" expanded="false" />
+            <element signature="e#3743#3744#0" expanded="false" />
+            <element signature="e#3784#3785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/ColorConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="357">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeCircleCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/drawing/MonochromeRectangleCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="799">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/SpriteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="901">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/sprites/PaddleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="799">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Paddle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1105">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+          <folding>
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="578">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/UI/LevelPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1836">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1730#1731#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2138#2139#0" expanded="false" />
+            <element signature="e#2423#2424#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2836#2837#0" expanded="false" />
+            <element signature="e#3529#3530#0" expanded="false" />
+            <element signature="e#3592#3593#0" expanded="false" />
+            <element signature="e#3647#3648#0" expanded="false" />
+            <element signature="e#3688#3689#0" expanded="false" />
+            <element signature="e#3743#3744#0" expanded="false" />
+            <element signature="e#3784#3785#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,7 +1106,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1666">
           <caret line="62" column="39" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1730#1731#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2138#2139#0" expanded="false" />
+            <element signature="e#2423#2424#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2836#2837#0" expanded="false" />
+            <element signature="e#3529#3530#0" expanded="false" />
+            <element signature="e#3592#3593#0" expanded="false" />
+            <element signature="e#3647#3648#0" expanded="false" />
+            <element signature="e#3688#3689#0" expanded="false" />
+            <element signature="e#3743#3744#0" expanded="false" />
+            <element signature="e#3784#3785#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -942,14 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="799">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -986,9 +1166,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55460995" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.964539" vertical-offset="34" max-vertical-offset="1207">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/sprites/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3448276" vertical-offset="2796" max-vertical-offset="5202">
+          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+          <folding>
+            <element signature="e#7297#7298#0" expanded="true" />
+            <element signature="e#7357#7358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/ArkanoidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1513">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding>
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/collision/CollisionDetectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1122">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#899#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/arkanoid/logic/TestArkanoidFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/collision/Collision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/logic/collision/CollisionDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6336207" vertical-offset="97" max-vertical-offset="969">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#546#557#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

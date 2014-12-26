@@ -53,7 +53,7 @@ public class LevelPanel extends JPanel implements Observer {
 
     private void setKeybindings()
     {
-        final Paddle player1 = currentLevel.getPlayer1();
+        final Paddle player1 = currentLevel.player1();
 
         getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke("pressed LEFT"), "player1MoveLeft" );
         getActionMap().put("player1MoveLeft", new AbstractAction() {
