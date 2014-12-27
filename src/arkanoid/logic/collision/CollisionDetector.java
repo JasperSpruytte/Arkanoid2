@@ -1,9 +1,7 @@
 package arkanoid.logic.collision;
 
 import arkanoid.logic.Level;
-import arkanoid.logic.sprites.Ball;
-import arkanoid.logic.sprites.Block;
-import arkanoid.logic.sprites.Sprite;
+import arkanoid.logic.sprites.*;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -22,20 +20,37 @@ public class CollisionDetector {
 
     public List<Collision> detectCollisions() {
         List<Collision> collisions = new ArrayList<Collision>();
+        checkBallCollisions(collisions);
+        checkIfSpriteHitEdge(level.player1(), collisions);
+        return collisions;
+    }
 
+    private void checkBallCollisions(List<Collision> collisions)
+    {
         for (Iterator<Ball> balls = level.createBallIterator(); balls.hasNext();)
         {
             Ball ball = balls.next();
             checkSpriteCollision(ball, level.player1(), collisions);
-
-            for (Iterator<Block> blocks = level.createBlockIterator(); blocks.hasNext();)
-            {
-                Block block = blocks.next();
-                checkSpriteCollision(ball, block, collisions);
-            }
+            checkIfBallHitBlocks(ball, collisions);
+            checkIfSpriteHitEdge(ball, collisions);
         }
-        
-        return collisions;
+    }
+
+    private void checkIfBallHitBlocks(Ball ball, List<Collision> collisions)
+    {
+        for (Iterator<Block> blocks = level.createBlockIterator(); blocks.hasNext();)
+        {
+            Block block = blocks.next();
+            checkSpriteCollision(ball, block, collisions);
+        }
+    }
+
+    private void checkIfSpriteHitEdge(Sprite sprite, List<Collision> collisions)
+    {
+        if (sprite.x() <= 0 || sprite.x() + sprite.width() >= level.WIDTH || sprite.y() <= 0 || sprite.y() + sprite.height() >= level.HEIGHT)
+        {
+            collisions.add(new Collision(sprite, null));
+        }
     }
 
     private void checkSpriteCollision(Sprite sprite1, Sprite sprite2, List<Collision> collisions)

@@ -9,20 +9,6 @@ import org.junit.Test;
 public class SpriteTest {
 
     @Test(expected = IllegalArgumentException.class)
-    public void sprite_constructor_preventNegativeX()
-    {
-        int illegalX = -1;
-        Sprite sprite = new SpriteMock(illegalX, 10, 10, 10);
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void sprite_constructor_preventNegativeY()
-    {
-        int illegalY = -1;
-        Sprite sprite = new SpriteMock(10, illegalY, 10, 10);
-    }
-
-    @Test(expected = IllegalArgumentException.class)
     public void sprite_constructor_preventWidthLessThenOne()
     {
         int illegalWidth = 0;

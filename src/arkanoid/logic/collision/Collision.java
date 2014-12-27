@@ -1,5 +1,6 @@
 package arkanoid.logic.collision;
 
+import arkanoid.logic.sprites.Paddle;
 import arkanoid.logic.sprites.Sprite;
 
 /**
@@ -13,6 +14,11 @@ public class Collision {
     {
         this.sprite1 = sprite1;
         this.sprite2 = sprite2;
+    }
+
+    public Collision(Sprite sprite) {
+        sprite1 = sprite;
+        sprite2 = null;
     }
 
     public Sprite sprite1()

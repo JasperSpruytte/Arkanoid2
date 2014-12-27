@@ -57,4 +57,57 @@ public class CollisionDetectorTest {
 
         assertTrue(collisions.size() >= 1);
     }
+
+    @Test
+    public void detectCollisions_detectsCollisionBetweenBallAndEdge()
+    {
+        Level level = new Level(0, new TestArkanoidFactory());
+        int ballDiameter = 5;
+        int ballX = 0;
+        int ballY = 0;
+        Ball ball = new Ball(ballX, ballY, ballDiameter, 1, 1);
+        level.addBall(ball);
+        CollisionDetector collisionDetector = new CollisionDetector(level);
+
+        List<Collision> collisions = collisionDetector.detectCollisions();
+
+        boolean detectedCollisionBetweenBallAndEdge = false;
+        for (Collision collision: collisions)
+        {
+            if (collision.sprite1() instanceof Ball && collision.sprite2() == null)
+            {
+                detectedCollisionBetweenBallAndEdge = true;
+                break;
+            }
+        }
+
+        assertTrue(detectedCollisionBetweenBallAndEdge);
+    }
+
+    @Test
+    public void detectCollisions_detectsCollisionBetweenPaddleAndEdge()
+    {
+        Level level = new Level(0, new TestArkanoidFactory());
+        Paddle paddle = level.player1();
+        CollisionDetector collisionDetector = new CollisionDetector(level);
+        paddle.startMovingLeft();
+        while (paddle.x() > 0)
+        {
+            paddle.move();
+        }
+
+        List<Collision> collisions = collisionDetector.detectCollisions();
+
+        boolean detectedCollisionBetweenPaddleAndEdge = false;
+        for (Collision collision: collisions)
+        {
+            if (collision.sprite1() instanceof Paddle && collision.sprite2() == null)
+            {
+                detectedCollisionBetweenPaddleAndEdge = true;
+                break;
+            }
+        }
+
+        assertTrue(detectedCollisionBetweenPaddleAndEdge);
+    }
 }

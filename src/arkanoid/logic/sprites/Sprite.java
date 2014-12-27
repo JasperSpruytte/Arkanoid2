@@ -12,6 +12,7 @@ public abstract class Sprite {
     private int y;
     private int width;
     private int height;
+    private Image spriteImage;
 
     public Sprite(int x, int y, int width, int height)
     {
@@ -23,8 +24,11 @@ public abstract class Sprite {
 
     public Image createImage()
     {
-        ImageFactory imageFactory = createImageCreator();
-        return imageFactory.createImage();
+        if (spriteImage == null) {
+            ImageFactory imageFactory = createImageCreator();
+            spriteImage = imageFactory.createImage();
+        }
+        return spriteImage;
     }
 
     protected abstract ImageFactory createImageCreator();
@@ -47,15 +51,11 @@ public abstract class Sprite {
 
     protected void setX(int x)
     {
-        if (x < 0)
-            throw new IllegalArgumentException("X has to be positive.");
         this.x = x;
     }
 
     protected void setY(int y)
     {
-        if (y < 0)
-            throw new IllegalArgumentException("Y has to be positive.");
         this.y = y;
     }
 

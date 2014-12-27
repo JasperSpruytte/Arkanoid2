@@ -24,6 +24,7 @@ public class LevelPanel extends JPanel implements Observer {
     public LevelPanel()
     {
         setLayout(new GridBagLayout());
+        setDoubleBuffered(true);
         initialiseGame();
         repaint();
     }

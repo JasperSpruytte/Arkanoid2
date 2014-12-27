@@ -1,5 +1,6 @@
 package arkanoid.logic.sprites;
 
+import arkanoid.logic.Level;
 import arkanoid.logic.sprites.drawing.ImageFactory;
 import arkanoid.logic.sprites.drawing.MonochromeRectangleFactory;
 
@@ -56,5 +57,15 @@ public class Paddle extends Sprite {
     @Override
     protected ImageFactory createImageCreator() {
         return imageFactory;
+    }
+
+    public void goToLeftEdgeOfScreen()
+    {
+        setX(0);
+    }
+
+    public void goToRightSideOfScreen()
+    {
+        setX(Level.WIDTH);
     }
 }
