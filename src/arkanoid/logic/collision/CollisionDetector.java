@@ -47,16 +47,19 @@ public class CollisionDetector {
 
     private void checkIfSpriteHitEdge(Sprite sprite, List<Collision> collisions)
     {
-        if (sprite.x() <= 0 || sprite.x() + sprite.width() >= level.WIDTH || sprite.y() <= 0 || sprite.y() + sprite.height() >= level.HEIGHT)
-        {
-            collisions.add(new Collision(sprite, null));
-        }
+        if (sprite.x() <= 0)
+            collisions.add(new Collision(sprite, Collision.LEFT));
+        if (sprite.rightX() >= level.WIDTH)
+            collisions.add(new Collision(sprite, Collision.RIGHT));
+        if (sprite.y() <= 0)
+            collisions.add(new Collision(sprite, Collision.TOP));
+
     }
 
     private void checkSpriteCollision(Sprite sprite1, Sprite sprite2, List<Collision> collisions)
     {
-        Rectangle sprite1Rectangle = new Rectangle(sprite1.width(), sprite1.height());
-        Rectangle sprite2Rectangle = new Rectangle(sprite2.width(), sprite2.height());
+        Rectangle sprite1Rectangle = new Rectangle(sprite1.x(), sprite1.y(), sprite1.width(), sprite1.height());
+        Rectangle sprite2Rectangle = new Rectangle(sprite2.x(), sprite2.y(), sprite2.width(), sprite2.height());
 
         if (sprite1Rectangle.intersects(sprite2Rectangle))
         {

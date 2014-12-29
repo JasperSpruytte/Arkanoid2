@@ -72,4 +72,9 @@ public abstract class Sprite {
             throw new IllegalArgumentException("The height has to be at least 1.");
         this.height = height;
     }
+
+    public int rightX()
+    {
+        return x + width;
+    }
 }

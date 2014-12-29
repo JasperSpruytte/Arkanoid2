@@ -28,4 +28,26 @@ public class Ball extends Sprite {
         setX(x() + horizontalSpeed);
         setY(y() + verticalSpeed);
     }
+
+    public int horizontalSpeed()
+    {
+        return horizontalSpeed;
+    }
+
+    public void reverseHorizontalDirection()
+    {
+        horizontalSpeed *= -1;
+    }
+
+    public int verticalSpeed() {
+        return verticalSpeed;
+    }
+
+    public void reverseVerticalDirection() {
+        verticalSpeed *= -1;
+    }
+
+    public void moveLeft() {
+        horizontalSpeed = -5;
+    }
 }

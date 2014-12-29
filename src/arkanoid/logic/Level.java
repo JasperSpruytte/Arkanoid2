@@ -1,6 +1,9 @@
 package arkanoid.logic;
 
 import arkanoid.dataaccess.ArkanoidFactory;
+import arkanoid.logic.collision.Collision;
+import arkanoid.logic.collision.CollisionDetector;
+import arkanoid.logic.collision.CollisionHandler;
 import arkanoid.logic.sprites.*;
 
 import java.util.*;
@@ -17,6 +20,8 @@ public class Level extends Observable {
     public static final int HEIGHT = 720;
     private Timer timer;
     private boolean paused;
+    private CollisionDetector collisionDetector;
+    private CollisionHandler collisionHandler;
 
     public Level(int levelNumber, ArkanoidFactory arkanoidFactory)
     {
@@ -28,9 +33,11 @@ public class Level extends Observable {
     {
         blocks = arkanoidFactory.createBlocksOfLevel(levelNumber);
         player1 = new Paddle(WIDTH / 2, HEIGHT - 10, 70, 10, 10);
-        Ball ball = new Ball(120, 120, 10, 5, 5);
+        Ball ball = new Ball(WIDTH - 30, 50, 10, 1, -1);
         balls = new ArrayList<Ball>();
         balls.add(ball);
+        collisionDetector = new CollisionDetector(this);
+        collisionHandler = new CollisionHandler();
     }
 
     public void start()
@@ -42,6 +49,8 @@ public class Level extends Observable {
             public void run() {
                 player1.move();
                 balls.get(0).move();
+                List<Collision> collisions = collisionDetector.detectCollisions();
+                collisionHandler.handleCollisions(collisions);
                 stateChanged();
             }
         }, 0, 17);

@@ -66,6 +66,6 @@ public class Paddle extends Sprite {
 
     public void goToRightSideOfScreen()
     {
-        setX(Level.WIDTH);
+        setX(Level.WIDTH - width());
     }
 }
